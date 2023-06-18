@@ -1,0 +1,1866 @@
+@import url(bootstrap.min.css);
+@import url(../fontawesome-free-6.2.1-web/css/all.css);
+@import url(../fontawesome-free-6.2.1-web/css/fontawesome.min.css);
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+  font-weight: normal;
+  letter-spacing: 0.03rem;
+  overflow-x: hidden;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+a:hover {
+  color: currentColor;
+}
+img {
+  width: 100%;
+}
+.f-blod {
+  font-weight: 600;
+}
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+.nav-class ul {
+  width: max-content;
+  margin: auto;
+}
+.nav-class .nav-item {
+  padding: 15px;
+  font-size: 17px;
+  transition-duration: .5s;
+}
+.nav-class .nav-item:hover {
+  padding: 15px 35px;
+  transition-duration: .5s;
+}
+.nav-class .nav-link{
+  transition-duration: .5s;
+}
+.nav-class .nav-link:hover{
+  transition-duration: .5s;
+  border-radius: 30px;
+  box-shadow: 0 0 15px 0 #fff;
+}
+.real-estate-login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-login,
+.nav-call {
+  font-size: 16px;
+  color: #fff !important;
+  transition-duration: .5s;
+}
+.nav-login:hover , .nav-call:hover{
+  transition-duration: .5s;
+  border-radius: 30px;
+  padding: 5px 20px;
+  box-shadow: 0 0 15px 0 #fff;
+}
+.slider-01-headding {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+}
+section.slider-01,
+.luxurious-img,
+.slider-07 {
+  position: relative;
+}
+.slider-01-headding h2 {
+  font-size: 40px;
+}
+.slider-01-headding h6 {
+  font-size: 17px;
+}
+header.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.hose-text h3 {
+  font-size: 20px;
+  padding: 5px 0;
+}
+.hose-text h6,
+.hose-text h3,
+.slider-02-headding h2,
+.featured h2,
+.luxurious-home-info h2,
+.luxurious-prize h4 {
+  color: #373636;
+}
+.hose-text h6 {
+  font-size: 15px;
+}
+.house-icon,
+.hose-text {
+  padding: 20px 0;
+}
+.house-icon i {
+  font-size: 35px;
+}
+.propoties-box {
+  padding-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 0px #00000061;
+}
+.propoties-main {
+  position: absolute;
+  bottom: -75px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+section.slider-02 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.slider-02-headding h2,
+.featured h2,
+.dream-headding h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  margin: 0;
+}
+.round {
+  border-radius: 10px;
+}
+.luxurious-prize {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+}
+.luxurious-prize h4 {
+  font-size: 16px;
+  padding: 5px 14px;
+}
+.luxurious-home-info h2 {
+  font-size: 20px;
+}
+.luxurious-home-info h6 {
+  font-size: 16px;
+  color: #5f5d5d;
+  letter-spacing: 0.03rem;
+  font-weight: 400;
+}
+.luxurious-home-info {
+  padding: 20px 0;
+}
+.slider-03,
+.slider-06,
+.slider-07,
+footer,
+.about-slider-01,
+.about-slider-3,
+.about-slider-04,
+.blog-slider-01,
+.contact-slider-01 {
+  padding: 60px 0;
+}
+.slider-03,
+.slider-04,
+.slider-06 {
+  padding-top: 0px;
+}
+.slider-03-headding h2 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.relton-text h5 {
+  font-size: 20px;
+  color: #252525;
+}
+.relton-text p {
+  font-size: 15px;
+  color: #6f6f6f;
+  line-height: 1.5;
+  padding: 0 30px;
+}
+.relton-img {
+  width: 80%;
+  margin: auto;
+}
+.relton-text button {
+  font-size: 16px;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 7px 25px;
+}
+.dream-headding p {
+  font-size: 16px;
+  color: #696a6b;
+  line-height: 1.5;
+  padding: 0;
+}
+.draem-home-rate h2 {
+  font-size: 36px;
+}
+.draem-home-rate span {
+  font-size: 16px;
+}
+.dream-home-img img {
+  height: 570px;
+}
+.dream-home-img {
+  width: 90%;
+}
+.dream-home-text button,
+.contact-form button {
+  background: #cf6755;
+  color: #fff;
+  transition-duration: 0.5s;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.comma {
+  width: 5%;
+  margin: auto;
+}
+/* .testimonial-people {
+    width: 40%;
+    margin: auto;
+} */
+.testimonial-headding h2 {
+  font-size: 30px;
+  color: #141414;
+}
+.testimonial-main-box p {
+  font-size: 18px;
+  color: #141414;
+  line-height: 1.3;
+  font-weight: 500;
+}
+.testimonial-main-box {
+  padding: 60px;
+  background: #fff7f6;
+}
+.testimonial-imgage h6 {
+  font-size: 16px;
+  color: #141414;
+}
+.featured-text h2 {
+  font-size: 18px;
+  color: #252424;
+}
+.featured-text h6 {
+  font-size: 14px;
+  color: #4e4d4d;
+  font-weight: 400;
+  padding: 0;
+}
+.featured-img img {
+  border-radius: 10px;
+}
+.bg-red {
+  background: #eb6753;
+}
+.buying-propoties h2 {
+  font-size: 38px;
+  color: #fff;
+}
+.buying-propoties p {
+  font-size: 17px;
+  color: rgb(243, 242, 242);
+  padding: 30px 0;
+}
+.buying-propoties button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 18px;
+  border-radius: 10px;
+}
+.slider-07-right-img {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  width: 39%;
+}
+.soical-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0;
+  line-height: 2;
+  margin: 0 5px;
+}
+.foot-body p {
+  font-size: 15px;
+  line-height: 1.684;
+}
+.app h6 {
+  font-size: 23px;
+  font-weight: 600;
+}
+.media-text h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.foot-head00,
+.app-img {
+  display: inline-block !important;
+}
+
+.app-img img {
+  margin-left: -16px;
+}
+
+.foot-bg {
+  background: #0e131a;
+}
+.foot-body li {
+  padding-bottom: 15px;
+  color: #fff !important;
+  font-size: 15px;
+}
+.foot-head h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff !important;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+.relton-img img {
+  height: 170px;
+}
+.foot-body li:last-child {
+  padding-bottom: 0;
+}
+footer {
+  padding-bottom: 30px !important;
+}
+/* Inner page banner */
+.inner-box {
+  padding: 154px 0;
+}
+.inner-imgae {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 420px;
+}
+.inner-page-text h2 {
+  font-size: 42px;
+}
+/* End Banner */
+/* About Page */
+.mission-Estate-paragh p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #717171;
+}
+.mission-Estate-headding h2 {
+  font-size: 32px;
+  color: #141414 !important;
+}
+.view-text h6 {
+  font-size: 20px;
+  color: #787777;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+}
+/* .about-slider-02{
+    padding-bottom: 30px;
+} */
+.key-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 52px;
+  border: none;
+  border-radius: 50%;
+  background: #fc9e97;
+  color: #fff !important;
+  font-size: 20px;
+  margin: 15px 0;
+}
+.key-text h4 {
+  font-size: 20px;
+  color: #4b4a4a;
+  font-weight: 500;
+}
+.key-text {
+  display: inline-block;
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+.key-text p {
+  margin: 0 !important;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #646464;
+}
+.key-manage {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+.selling-box ul li {
+  margin: 25px 0;
+}
+.selling-box h2 {
+  font-size: 30px;
+  color: #343434;
+  margin-top: -20px;
+}
+.help-line h2 {
+  font-size: 33px;
+  color: #0a0a0a;
+}
+.help-line h6 {
+  font-size: 16px;
+  color: #646464;
+}
+.help-line-no {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.help-line-no button {
+  background: #fc9e97;
+  color: #fff;
+  letter-spacing: 0.05rem;
+  padding: 9px 20px;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+
+.blog-text h3 {
+  font-size: 18px;
+  color: #0a0a0a;
+  line-height: 1.5;
+  margin: 0;
+}
+/* Blog End */
+/* Contact Page */
+.one-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one-row input:first-child {
+  margin-right: 8px;
+}
+/* End Contact */
+/* Responsive */
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+  .buying-propoties h2,
+  .selling-box h2 {
+    font-size: 35px;
+  }
+  .featured-text h2,
+  .foot-body p,
+  .key-text p {
+    font-size: 16px;
+  }
+  .luxurious-home-info h2,
+  .blog-text h3 {
+    font-size: 18px;
+  }
+  .nav-login,
+  .nav-call {
+    font-size: 13px;
+    margin: 2px !important;
+  }
+  .mission-Estate-paragh p,
+  .help-line h6 {
+    font-size: 15px;
+  }
+  .mission-Estate-headding h2,
+  .help-line h2 {
+    font-size: 29px;
+  }
+  .inner-imgae {
+    height: 355px;
+  }
+  .inner-box {
+    padding: 115px 0;
+  }
+  .key-icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .dream-home-img img {
+    height: 500px;
+  }
+  .dream-headding h2 {
+    font-size: 25px;
+  }
+  .dream-headding p {
+    font-size: 12px;
+  }
+  .testimonial-main-box p,
+  .nav-class .nav-item,
+  .nav-login,
+  .nav-call {
+    font-size: 18px;
+  }
+  .comma {
+    width: 8%;
+  }
+  .testimonial-imgage h6 {
+    font-size: 16px;
+  }
+  .slider-07-right-img {
+    width: 40%;
+  }
+  .buying-propoties h2 {
+    font-size: 30px;
+  }
+  .buying-propoties p,
+  .buying-propoties button {
+    font-size: 15px;
+  }
+  header.header {
+    position: relative;
+    background-color: #060b16;
+  }
+  .luxurious-home-info h6,
+  .luxurious-home-info h2 {
+    font-size: 20px;
+  }
+  .draem-home-rate h2 {
+    font-size: 33px;
+  }
+  .slider-04 {
+    padding: 30px 0;
+  }
+  .real-estate-login-box {
+    margin-top: 10px;
+  }
+  .inner-imgae {
+    height: 317px;
+  }
+  .inner-page-text h2 {
+    font-size: 35px;
+  }
+  .inner-box {
+    padding: 100px 0;
+  }
+  .mission-Estate-headding h2,
+  .help-line h2 {
+    font-size: 21px;
+  }
+  .mission-Estate-paragh p {
+    font-size: 11px;
+  }
+  .view-text h2,
+  .selling-box h2 {
+    font-size: 25px;
+  }
+  .view-text h6 {
+    font-size: 18px;
+  }
+  .key-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 55px;
+  }
+  .key-text h4 {
+    font-size: 20px;
+  }
+  .key-text p,
+  .help-line h6 {
+    font-size: 15px;
+  }
+  .help-line-no button {
+    padding: 9px 10px;
+    font-size: 15px;
+  }
+  .blog-tab-btn button {
+    font-size: 12px;
+  }
+  .blog-slider-01 {
+    padding: 30px 0;
+  }
+  .blog-text h3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hose-text h6 {
+    font-size: 12px;
+  }
+  .hose-text h3 {
+    font-size: 16px;
+  }
+  .propoties-box {
+    padding-top: 0;
+  }
+  .propoties-main {
+    bottom: -45px;
+  }
+  .slider-01-headding h2 {
+    font-size: 35px;
+  }
+  .slider-01-headding {
+    top: 20%;
+  }
+  .luxurious-img {
+    width: 80%;
+    margin: auto;
+  }
+  .luxurious-home-info,
+  .slider-02-headding,
+  .dream-home-text,
+  .featured-text,
+  .featured,
+  .blog-text {
+    text-align: center;
+  }
+  .slider-02-headding h2,
+  .featured h2,
+  .slider-03-headding h2,
+  .testimonial-headding h2 {
+    font-size: 25px;
+  }
+  .luxurious-home-info h6,
+  .luxurious-home-info h2 {
+    font-size: 16px;
+  }
+  .testimonial-imgage h6 {
+    font-size: 18px;
+  }
+  .featured-text h6 {
+    padding: 0px 0;
+    font-size: 13px;
+  }
+  .relton-text {
+    margin-bottom: 20px;
+  }
+  .dream-headding h2 {
+    font-size: 23px;
+  }
+  .dream-headding p {
+    font-size: 12px;
+    padding: 2px 0;
+  }
+  .testimonial-main-box {
+    padding: 20px;
+  }
+  /* .testimonial-people {
+        width: 75%;
+    } */
+  .testimonial-main-box p {
+    line-height: 1.6;
+  }
+  .featured-img {
+    width: 80%;
+    margin: auto;
+  }
+  .featured-text h2 {
+    font-size: 20px;
+  }
+  .draem-home-rate {
+    margin: 10px 0 !important;
+  }
+  .foot-head h2,
+  .relton-text h5 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .foot-body p {
+    font-size: 14px;
+  }
+  ul.blog-tab li {
+    width: 30%;
+    margin: 10px 0;
+    text-align: left;
+  }
+  .blog-img {
+    width: 100%;
+    margin: auto;
+  }
+  .blog-text h3 {
+    font-size: 13px;
+  }
+  .blog-tab-btn button {
+    font-size: 13px;
+  }
+  .relton-text p,
+  .draem-home-rate span {
+    font-size: 15px;
+  }
+  .relton-text button {
+    font-size: 14px;
+    padding: 7px 14px;
+  }
+  .slider-03 {
+    padding: 30px 0;
+  }
+  .draem-home-rate h2 {
+    font-size: 30px;
+  }
+  .dream-home-img {
+    width: 100%;
+  }
+  .featured-text h2 {
+    font-size: 16px;
+  }
+  .slider-07-right-img {
+    width: 50%;
+    right: 13px;
+  }
+  .buying-propoties p {
+    position: relative;
+  }
+  .selling-box h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .about-slider-04 {
+    padding: 40px 0;
+  }
+  .key-text p,
+  .help-line h6 {
+    font-size: 12px;
+  }
+  .indivisual-people {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+@media only screen and (max-width: 562px) {
+  .propoties-main {
+    position: relative;
+  }
+  .propoties-box {
+    width: 80%;
+    margin: auto;
+  }
+  .hose-text h6 {
+    font-size: 16px;
+  }
+  .hose-text h3,
+  .relton-text h5 {
+    font-size: 20px;
+  }
+  .slider-01-headding {
+    top: 45px;
+  }
+  .slider-01-headding h2,
+  .slider-03-headding h2,
+  .testimonial-headding h2,
+  .dream-headding h2 {
+    font-size: 25px;
+  }
+  .slider-01-headding h6 {
+    font-size: 13px;
+  }
+  .buying-propoties p {
+    font-size: 12px;
+    padding: 15px 0;
+    position: relative;
+    z-index: 1;
+  }
+  .slider-07-right-img {
+    width: 53%;
+    right: 15px;
+  }
+  .buying-propoties button {
+    font-size: 12px;
+    padding: 7px 20px;
+  }
+  .luxurious-home-info h6,
+  .luxurious-home-info h2 {
+    font-size: 18px;
+  }
+  .relton-img {
+    width: 60%;
+  }
+  .dream-home-img {
+    width: 100%;
+  }
+  .relton-text p,
+  .featured-text h6,
+  .testimonial-imgage h6,
+  .dream-headding p,
+  .help-line h6,
+  .blog-text h3 {
+    font-size: 15px;
+  }
+  .relton-text button {
+    padding: 7px 15px;
+  }
+  .featured-text h2 {
+    font-size: 17px;
+  }
+  .testimonial-main-box p,
+  .key-text p {
+    font-size: 14px;
+  }
+  .foot-head,
+  .foot-body {
+    text-align: center;
+  }
+  .foot-head h2,
+  .buying-propoties h2 {
+    font-size: 22px;
+  }
+  .key-manage {
+    justify-content: center;
+  }
+  .selling-box h2,
+  .help-line {
+    text-align: center;
+  }
+  .about-slider-04,
+  .about-slider-3 {
+    padding: 30px 0;
+  }
+  .help-line h2,
+  .inner-page-text h2,
+  .mission-Estate-headding h2 {
+    font-size: 25px;
+  }
+  .help-line-no {
+    margin-top: 12px;
+  }
+  .foot-head00 {
+    display: block !important;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+  }
+  .inner-imgae {
+    height: 265px;
+  }
+  .inner-box {
+    padding: 75px 0;
+  }
+  .mission-Estate-paragh p {
+    font-size: 14px;
+  }
+  ul.blog-tab li {
+    width: 33%;
+  }
+  .location {
+    margin: 25px 0;
+  }
+  .slider-07 {
+    padding: 40px 0;
+  }
+  .slider-06 {
+    padding: 30px 0;
+  }
+  .blog-tab-btn button {
+    font-size: 12px;
+    padding: 10px 1rem;
+  }
+  .blog-img {
+    width: 75%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .slider-03 {
+    margin-top: -48px;
+  }
+  .indivisual-people {
+    width: 45px !important;
+    height: 45px !important;
+    margin: 0 5px !important;
+  }
+  section.slider-05 {
+    margin: 10px 0;
+  }
+
+  .buying-propoties p {
+    font-size: 12px;
+    padding: 15px 0;
+    position: relative;
+    z-index: 1;
+    padding: 0 130px 0 0;
+  }
+
+  section.slider-02 {
+    padding-top: 65px;
+    padding-bottom: 30px;
+  }
+
+  .slider-04 {
+    padding: 0;
+  }
+
+  section.slider-05 {
+    margin: 45px 0;
+  }
+
+  .slider-06 {
+    padding: 0;
+  }
+
+  section.slider-07.bg-red {
+    margin: 20px 0 40px;
+  }
+
+  .inner-box {
+    padding: 103px 0;
+  }
+
+  section.about-slider-01 {
+    margin-bottom: -30px;
+    margin-top: 1px;
+  }
+
+  .about-slider-01 {
+    padding: 26px 0;
+  }
+
+  .mission-Estate-paragh {
+    margin: 6px 0 25px !important;
+  }
+
+  .selling-box {
+    margin: 20px 0 !important;
+  }
+
+  .help-line h2 {
+    font-size: 25px;
+    margin: 15px 0;
+  }
+
+  .help-line-no a {
+    font-size: 18px;
+    color: #000;
+  }
+
+  .blog-text.px-12 p {
+    font-size: 14px;
+    color: #717171;
+    margin: 12px 0;
+    font-weight: 300;
+    padding: 0 40px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .mission-Estate-headding h2 {
+    font-size: 19px;
+    line-height: 1.7;
+  }
+  .key-text p,
+  .help-line h6 {
+    font-size: 12px;
+  }
+  .coconot-img {
+    width: 80%;
+    margin: auto;
+  }
+  .inner-page-text h2 {
+    font-size: 19px;
+  }
+  .help-line h2,
+  .selling-box h2 {
+    font-size: 20px;
+  }
+  .about-slider-04 {
+    padding-top: 10px;
+  }
+  .inner-imgae {
+    height: 246px;
+  }
+  .blog-text h3 {
+    font-size: 13px;
+  }
+  .blog-tab-btn button {
+    font-size: 11px;
+    padding: 7px 15px;
+  }
+  .help-line-no a,
+  .relton-text h5 {
+    font-size: 17px !important;
+  }
+  section.slider-02 {
+    padding-top: 65px;
+    padding-bottom: 0;
+  }
+  .slider-02-headding h2,
+  .featured h2,
+  .slider-03-headding h2,
+  .testimonial-headding h2,
+  .dream-headding h2 {
+    font-size: 21px;
+  }
+  .luxurious-home-info h6,
+  .luxurious-home-info h2 {
+    font-size: 15px;
+  }
+  .relton-text p {
+    font-size: 13px;
+  }
+  .relton-img {
+    width: 55%;
+  }
+  .relton-text button {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .inner-imgae {
+    height: 164px;
+    top: -38px;
+  }
+  .mission-Estate-headding h2 {
+    font-size: 16px;
+  }
+  .mission-Estate-paragh p {
+    font-size: 10px;
+  }
+  .about-slider-01 {
+    padding: 30px 0;
+  }
+  .inner-box {
+    padding: 44px 0;
+  }
+  .viewer-box {
+    padding: 5px 0 !important;
+  }
+  .view-text h2,
+  .selling-box h2,
+  .slider-01-headding h2,
+  .draem-home-rate h2 {
+    font-size: 20px;
+  }
+  .view-text h6 {
+    font-size: 14px;
+  }
+  .key-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .key-text h4,
+  .help-line h2 {
+    font-size: 16px;
+  }
+  .key-text p,
+  .help-line h6 {
+    font-size: 9px;
+  }
+  .about-slider-04,
+  .about-slider-3 {
+    padding: 10px 0;
+  }
+  .slider-01-headding {
+    top: 26px;
+  }
+  .slider-01-headding h6,
+  .relton-text p,
+  .dream-headding p,
+  .draem-home-rate span {
+    font-size: 11px;
+  }
+  .luxurious-home-info h6,
+  .luxurious-home-info h2 {
+    font-size: 13px;
+  }
+  .slider-03,
+  .slider-06 {
+    padding: 0;
+  }
+  .slider-02-headding h2,
+  .featured h2,
+  .slider-03-headding h2,
+  .testimonial-headding h2 {
+    font-size: 17px;
+  }
+  .testimonial-main-box p {
+    font-size: 9px;
+    margin: 0 !important;
+  }
+  .testimonial-headding {
+    padding: 3px !important;
+  }
+  .relton-img img {
+    height: 121px;
+  }
+  .relton-text h5,
+  .help-line-no a {
+    font-size: 15px !important;
+  }
+  .relton-text button {
+    padding: 3px 7px;
+    font-size: 12px;
+  }
+  .dream-home-img img {
+    height: 300px;
+  }
+  .dream-headding h2 {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .dream-home-text button {
+    padding: 2px 10px;
+    font-size: 12px;
+  }
+  .featured-img img {
+    height: 163px;
+  }
+  .featured-text h6 {
+    font-size: 12px;
+  }
+  .featured-text h2 {
+    font-size: 14px;
+  }
+  .slider-07 {
+    padding: 30px 0;
+  }
+  .luxurious-prize h4 {
+    font-size: 12px;
+  }
+  .buying-propoties p {
+    font-size: 9px;
+    padding: 0 0;
+  }
+  .buying-propoties button {
+    font-size: 9px;
+    padding: 7px 10px;
+  }
+  .buying-propoties h2 {
+    font-size: 16px;
+  }
+  .blog-tab-btn button {
+    padding: 7px 11px;
+  }
+  .slider-07-right-img {
+    width: 45%;
+  }
+  .dream-home-text {
+    padding-top: 30px !important;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .indivisual-people {
+    width: 30px !important;
+    height: 30px !important;
+    margin: 0 2px !important;
+  }
+  .relton-img {
+    width: 73%;
+  }
+  .house-icon i {
+    font-size: 25px;
+  }
+  .house-icon,
+  .hose-text {
+    padding: 15px 0;
+  }
+  .slider-07-right-img {
+    width: 53%;
+  }
+}
+.rel {
+  position: relative !important;
+}
+.heder-bg {
+  background: #060b16 !important;
+}
+.help-line-no button:hover,
+.relton-text button:hover,
+.dream-home-text button:hover {
+  color: #fff !important;
+  background: #eb6753;
+  transition-duration: 0.5s;
+}
+.location {
+  height: 310px;
+}
+.soical-icon:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  color: #eb6753;
+}
+.about-slider-3-bg {
+  background: #fff7f6;
+  margin: 30px 0;
+  padding: 40px 0;
+}
+.about-slider-4-bg {
+  background: #faf3f1;
+  margin: 40px 0;
+}
+
+.help-line-no a {
+  font-size: 20px;
+  color: #000;
+}
+
+.indivisual-people {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.slider-05 .carousel-inner .carousel-item {
+  transition: -webkit-transform 2.5s ease;
+  transition: transform 2.5s ease;
+  transition: transform 2.5s ease, -webkit-transform 2.5s ease;
+}
+.m-24{
+  margin: 1.5rem;
+}
+.px-12{
+  margin: 0.75rem 0;
+}
+.py-12{
+  margin: 0 .75rem;
+}
+.mt-32{
+  margin-top: 2rem;
+}
+.mb-48{
+  margin-bottom: 3rem;
+}
+
+section.slider-05 {
+  margin: 40px 0;
+}
+
+.viewer-box.pt-5 {
+  padding: 0 !important;
+  margin: 25px 0 0;
+}
+
+.selling-box {
+  margin: 60px 0;
+}
+
+section.about-slider-01 {
+  margin-bottom: -30px;
+  margin-top: 20px;
+}
+
+.mission-Estate-headding img {
+  width: 95%;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.mission-Estate-paragh {
+  margin: 50px 0 0;
+}
+
+.about-slider-01 h2 {
+  text-align: center;
+}
+
+.sofa-img img {
+  border-radius: 20px;
+}
+
+ul.blog-tab {
+  margin: 0 !important;
+}
+
+ul.blog-tab li {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+  border: #000 solid 1px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  transition-duration: .5s;
+}
+
+ul.blog-tab li:hover {
+  background: #000;
+  color: #fff;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+ul.blog-tab li:nth-child(1) {
+  background: #000;
+}
+
+ul.blog-tab li .tab {
+  color: #fff;
+}
+
+.pb-5 {
+  padding-bottom: 30px !important;
+}
+
+.blog-text.px-12 p {
+  font-size: 14px;
+  color: #717171;
+  margin: 12px 0;
+  font-weight: 300;
+}
+
+button.btn.f-blod {
+  font-size: 15px;
+  background: #fb6257;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+
+button.btn.f-blod:hover {
+  background: #000;
+  color: #fff;
+}
+
+input.form-control.my-1 {
+  height: 50px;
+  font-size: 14px;
+}
+
+
+/* Index02 css */
+section.index-02-slider-01 {
+    position: relative;
+}
+section.index-02-slider-01::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #9d9e9c8a;
+}
+.index-02-slider-bg {
+    height: 410px;
+}
+.index-02-slider01-box {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.index-02-dream-house h2 {
+    font-size: 40px;
+    color: #ffffff !important;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-family: "Montserrat";
+}
+.index-02-dream-house h6 {
+    font-size: 16px;
+    color: #ffffff !important;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-family: "Montserrat";
+}
+.dream-house-btn button {
+    font-size: 17px;
+    padding: 8px 25px;
+    border: none; 
+    font-family: "Montserrat" !important;
+}
+.red-bg{background: #d06856;}
+
+.index-02-slider-02{
+    padding: 30px 0;
+}
+.index-02-popular-place h2 , .index-02-feture-propoties h2 , .index-02-chooes-us h2 , .index-02-testimonial h2 , .index-02-popular-place-02 h2{
+    font-family: "Montserrat";
+    font-size: 32px;
+    letter-spacing: 0.1rem;
+    color: #000 !important;
+}
+.index-02-popular-place p , .index-02-feture-propoties p , .index-02-chooes-us p , .index-02-testimonial p{
+    font-family: "Montserrat";
+    color: #7c7c7c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.new-york-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.new-york-text h5 {
+    font-size: 22px;
+    color: #565454;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+.new-york-text h6 {
+    color: #7c7c7c;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+.index-02-popular-boder, .featured-main-box {
+    border: 1px solid #cccaca;
+    border-radius: 7px;
+}
+section.index-02-slider-03 {
+    background: #f4f7fb;
+    padding: 30px 0;
+}
+.index-02-featured-text-box h4 {
+    font-size: 17px;
+    font-family: "Montserrat";
+    letter-spacing: 0.05rem;
+}
+.index-02-featured-text-box p {
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.index-02-featured-text-box h6{
+    font-size: 17px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.featured-main-box {
+    box-shadow: 1px 1px 8px 3px #0000003d;
+    transition-duration: .5s;
+}
+.index-02-featurd-img {
+    transition-duration: .5s;
+    height: 245px;
+}
+.index-02-featurd-img:hover{
+    transform: scale(1.03);
+    transition-duration: .5s;
+    cursor: pointer;
+    border: none;
+}   
+.index-02-slider-04 , .index-02-slider-05{
+    padding: 30px 0;
+}
+.wide-text-box h5 {
+    font-size: 17px;
+    font-family: "Montserrat";
+    letter-spacing: 0.05rem;
+}
+.wide-text-box p {
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.range-wide-main-box {
+    padding: 25px;
+    border: 1px solid #cccaca;
+    border-radius: 8px;
+}
+.index-02-testimonial-img {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #ff89af;
+    border-radius: 50%;
+}
+.index-02-testimonial-img-cont-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.index-02-testimonial-name {
+    flex: 1;
+}
+.index-02-testminial-text p {
+    font-size: 13px;
+    color: #7c7c7c;
+    font-weight: 500;
+    font-family: "Montserrat";
+    line-height: 1.7;
+}
+.index-02-testimonial-name h5 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #9b9b9b;
+    font-family: "Montserrat";
+}
+.index-02-testimonial-name h6 {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    color: #b4b4b4;
+}
+section.index-02-slider-05 {
+    background: #f4f7fb;
+}
+.index-02-testimonial-box {
+    padding: 25px;
+    border: 1px solid #cccaca;
+    border-radius: 8px;
+}
+.index-02-comma i {
+    font-size: 50px;
+    color: #f6dcee;
+}
+.index-02-slider-06{
+    padding: 30px 0;
+}
+.index-02-popular-place-02 h2 {
+    padding-bottom: 30px;
+}
+.index-02-popular-02-img-box , .new-york-box{
+    transition-duration: .5s;
+}
+.index-02-popular-02-img-box:hover {
+    transition-duration: .5s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.new-york-box:hover{
+    transition-duration: .5s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.index-02-popular-02-img-box {
+    position: relative;
+}
+.index-02-popular-02-text-box {
+    position: absolute;
+    top: 45%;
+    left: 0px;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
+.index-02-popular-02-text-box h4 {
+    font-size: 30px;
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+/* Index 02 Responsive */
+@media only screen and (max-width: 1400px){}
+@media only screen and (max-width: 1200px){}
+@media only screen and (max-width: 992px){
+    .new-york-text{
+        align-items: self-start;
+    }
+    .index-02-popular-place h2, .index-02-feture-propoties h2, .index-02-chooes-us h2, .index-02-testimonial h2, .index-02-popular-place-02 h2{
+        font-size: 25px;
+    }
+    .index-02-popular-place p, .index-02-feture-propoties p, .index-02-chooes-us p, .index-02-testimonial p{
+        font-size: 14px;
+    }
+    .new-york-text h5{
+        font-size: 19px;
+    }
+    .new-york-text h6{
+        font-size: 12px;
+    }
+    .index-02-featured-text-box h4{
+        font-size: 17px;
+    }
+    .index-02-featured-text-box p{
+        font-size: 14px;
+    }
+    .index-02-featured-text-box h6{
+        font-size: 16px;
+    }
+    .index-02-testimonial-img{
+        width: 60px;
+        height: 60px;
+        border: 4px solid #ff89af;
+    }
+    .index-02-testimonial-name h5{
+        font-size: 15px;
+    }
+    .index-02-testimonial-name h6{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .wide-text-box p{
+        font-size: 14px;
+    }
+    .index-02-comma i{
+        font-size: 45px;
+    }
+    .index-02-dream-house h2{
+        font-size: 30px;
+    }
+    .index-02-dream-house h6{
+        font-size: 13px;
+    }
+    .dream-house-btn button{
+        font-size: 15px;
+    }
+    .index-02-slider-bg {
+        height: auto;
+    }
+    .index-02-featured-text-box h4 {
+        font-size: 16px;
+    }
+    .wide-img-box {
+        width: 30%;
+    }
+    .index-02-popular-02-img-box {
+        height: 285px;
+        width: 80%;
+        margin-inline: auto;
+    }
+}
+@media only screen and (max-width: 552px){
+    .index-02-slider01-box{
+        top: 16%;
+    }
+    .index-02-dream-house h2 {
+        font-size: 25px;
+    }
+    .dream-house-btn button {
+        font-size: 12px;
+    }
+    .index-02-dream-house h6 {
+        font-size: 11px;
+    }
+    .index-02-featured-text-box.py-12 {
+        text-align: center;
+    }
+    .index-02-featured-text-box h4 {
+        font-size: 20px;
+    }
+    .index-02-featured-text-box p {
+        font-size: 15px;
+    }
+    .index-02-featured-text-box h6 {
+        font-size: 19px;
+    }
+    .range-wide-main-box {
+        padding: 50px;
+    }
+    .wide-text-box h5{
+        font-size: 17px;
+    }
+    .wide-text-box p {
+        font-size: 14px;
+    }
+    .wide-img-box.d-inline-block {
+        width: 25%;
+    }
+    .index-02-testimonial-name {
+        flex: 0.9;
+    }
+    .index-02-testimonial-name h5 {
+        font-size: 17px;
+    }
+    .index-02-testimonial-name h6 {
+        font-size: 14px;
+    }
+    .new-york-text {
+        display: block;
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+    .new-york-text h5 {
+        font-size: 21px;
+    }
+    .new-york-text h6 {
+        font-size: 15px;
+    }
+    .index-02-slider-bg {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 480px){
+    .index-02-featured-text-box h4 {
+        font-size: 16px;
+    }
+    .index-02-featured-text-box p {
+        font-size: 13px;
+    }
+    .index-02-featured-text-box h6 {
+        font-size: 16px;
+    }
+    .range-wide-main-box {
+        padding: 25px;
+        width: 80%;
+        margin-inline: auto;
+    }
+    .index-02-slider-bg {
+        height: auto;
+    }
+    .featured-main-box.px-12 {
+        width: 80%;
+        margin-inline: auto;
+    }
+    .index-02-featurd-img {
+        height: 245px;
+    }
+    .index-02-popular-boder {
+        width: 80%;
+        margin-inline: auto;
+    }
+    .new-york-box img {
+        height: 245px;
+    }
+    .index-02-testimonial-box {
+        width: 80%;
+        margin-inline: auto;
+    }
+}
+@media only screen and (max-width: 390px){
+    .index-02-popular-place h2, .index-02-feture-propoties h2, .index-02-chooes-us h2, .index-02-testimonial h2, .index-02-popular-place-02 h2 {
+        font-size: 20px;
+    }
+    .index-02-popular-place p, .index-02-feture-propoties p, .index-02-chooes-us p, .index-02-testimonial p {
+        font-size: 12px;
+    }
+    .index-02-dream-house h2 {
+        font-size: 20px;
+    }
+    .index-02-dream-house h6 {
+        font-size: 9px;
+        margin-bottom: 1.5rem;
+    }
+    .dream-house-btn button {
+        padding: 7px 15px;
+    }
+    /* .index-02-featured-text-box h4 {
+        font-size: 16px;
+    }
+    .index-02-featured-text-box p {
+        font-size: 13px;
+    }
+    .index-02-featured-text-box h6 {
+        font-size: 16px;
+    } */
+    .range-wide-main-box {
+        padding: 25px;
+    }
+    .wide-text-box p {
+        font-size: 14px;
+    }
+    .wide-text-box h5 {
+        font-size: 17px;
+    }
+    .new-york-text h5 {
+        font-size: 18px;
+    }
+    .new-york-text h6 {
+        font-size: 13px;
+    }
+    .new-york-box img {
+        height: 200px;
+    }
+    .index-02-featurd-img {
+        height: 200px;
+    }
+    .index-02-featured-text-box h4 {
+        font-size: 14px;
+    }
+    .index-02-featured-text-box p {
+        font-size: 12px;
+    }
+    .index-02-featured-text-box h6 {
+        font-size: 15px;
+    }
+    .feature-btn-index-02.mt-32 {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .range-wide-main-box {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .index-02-testimonial-name h5 {
+        font-size: 16px;
+    }
+    .index-02-featured-text-box h4 {
+        font-size: 13px;
+    }
+    .index-02-testminial-text p{
+        font-size: 12px;
+    }
+    .index-02-comma i {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .index-02-featured-text-box {
+        margin: 1rem;
+    }
+    .index-02-featured-text-box p {
+        font-size: 11px;
+    }
+    .index-02-featurd-img {
+        height: 165px;
+    }
+    .index-02-featured-text-box h6 {
+        font-size: 14px;
+    }
+    .wide-text-box h5 {
+        font-size: 15px;
+    }
+    .wide-text-box p {
+        font-size: 12px;
+    }
+    .index-02-testimonial-box{
+        padding: 20px;
+    }
+    .index-02-testimonial-img {
+        width: 50px;
+        height: 50px;
+        border: 3px solid #ff89af;
+    }
+    .index-02-testminial-text p {
+        font-size: 10px;
+    }
+    .index-02-testimonial-name h5 {
+        font-size: 14px;
+    }
+    .index-02-testimonial-name h6 {
+        font-size: 12px;
+    }
+    .index-02-comma i {
+        font-size: 36px;
+    }
+    .feature-btn-index-02 button {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 280px){}
